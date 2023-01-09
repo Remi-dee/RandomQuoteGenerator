@@ -1,0 +1,121 @@
+
+    /*body{
+        background-color: aquamarine;
+    }*/
+
+  
+*{
+transition: 0.9s;
+}
+
+.container-fluid{
+    background: whitesmoke;
+   
+}
+
+.wrapper{
+    height: 100vh;
+}
+
+.box{
+    position: relative;
+    width: 500px;
+}
+
+.btn{
+    color: whitesmoke;
+}
+
+wrapper{
+    display: grid;
+    grid: 1fr;
+}
+
+.fas{
+    position: absolute;
+    opacity: 0.5;
+    top: 5px;
+    left: 10px;
+}
+
+/*.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+    /*body {
+        background-color: rgb(51, 51, 51);
+        color: rgb(51, 51, 51);
+        font-family: Raleway, sans-serif;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+   
+   {
+    vertical-align: baseline;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/*#wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+.card {
+    position: relative;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 10px 50px;
+    text-align: end;
+    transition: 500ms;
+    
+}
+
+
+
+.card-header {
+    padding-block: 30px ;
+    text-align: center;
+    
+}
+
+#text {
+padding-block: 20px ;
+}
+
+footer {
+    padding-block: 10px;
+    
+}
+
+.buttondiv{
+padding-block: 3px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    background: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+
+
